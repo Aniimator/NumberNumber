@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap');
+
+body{
+    font-family: 'Hepta Slab';
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(#ffffff, #fff0df);
+    color: #3e291b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    color: #ffffff;
+    padding: 12px 28px;
+    font-size: 20px;
+    border-radius: 50px;
+    background: #6b4c1e;
+    border: 3px solid;
+}
+
+button:hover {
+    color:#ffffff;
+    transition: 0.3s;
+    background: #e00000;
+}
+
+button:active{
+    color:#ffffff;
+    transition: 0.3s;
+    background: #852020;
+}
+
+input {
+    color: #703535;
+    padding: 12px 28px;
+    font-size: 20px;
+    border-radius: 50px;
+    background: #fffbf5;
+    border: 3px solid;
+}
